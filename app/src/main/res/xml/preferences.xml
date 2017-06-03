@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <PreferenceCategory android:title="Account details">
+        <Preference
+            android:key="pref_username"
+            android:summary="@string/pref_un_summary"
+            android:title="Name" />
+        <Preference
+            android:inputType="textPassword"
+            android:key="pref_password"
+            android:summary="@string/pref_pw_summary"
+            android:title="@string/pref_password" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Settings">
+        <Preference
+            android:key="exitlink"
+            android:title="@string/pref_logout" />
+    </PreferenceCategory>
+</PreferenceScreen>

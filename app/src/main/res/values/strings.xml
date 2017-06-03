@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">FXANdroid</string>
+    <string name="signup_label">Sign Up</string>
+    <string name="su_username_label">Username</string>
+    <string name="su_username_placeholder">Enter a username</string>
+    <string name="su_password_label">Password</string>
+    <string name="su_password_placeholder">Enter a password</string>
+    <string name="su_confirmpw_label">Confirm</string>
+    <string name="su_confirmpw_placeholder">Re-enter password</string>
+    <string name="su_button">CREATE ACCOUNT</string>
+    <string name="su_logintext">Already have an account? Login</string>
+    <string name="login_label">Log in to Portable Cloud</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Log in</string>
+    <string name="login_register_text">Don\'t have an account yet?\nRegister now!</string>
+    <string name="su_pwerror_label">Passwords do not match</string>
+    <string name="ac_label">Add details using their username</string>
+    <string name="ac_username_placeholder">Enter username</string>
+    <string name="logout">Logout</string>
+    <string name="hint_enter_a_message">Type a message...</string>
+
+    <!--Login Page -->
+    <string name="login_title">Sign In</string>
+    <string name="login_username_text">Username</string>
+    <string name="login_password_text">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_forgot_password_text">Forgot Password?</string>
+    <string name="login_or_text">Or</string>
+    <string name="login_create_account_text">Create Account</string>
+
+    <!--Register Page -->
+    <string name="register_title">Register</string>
+    <string name="register_username_text">Username</string>
+    <string name="register_password_text">Password</string>
+    <string name="register_password_confirm_text">Confirm Password</string>
+    <string name="register_button_text">Register</string>
+    <string name="register_or_text">Or</string>
+    <string name="register_login_text">Already have an account?</string>
+
+    <!--Migration Page-->
+    <string name="m_dest_label">Destination</string>
+    <string name="m_pw_label">Password</string>
+    <string name="m_dest_placeholder">Server name</string>
+    <string name="m_pw_placeholder">Password</string>
+    <string name="m_confirm_label">Migrate</string>
+    <string name="mc_textView">Are you sure you want to move to this server?</string>
+    <string name="mc_confirm_btn">Yes</string>
+    <string name="mc_cancel_btn">Cancel</string>
+
+    <!--Settings Page -->
+    <string name="pref_username">Username</string>
+    <string name="pref_password">Password</string>
+    <string name="pref_logout">Log out</string>
+    <string name="pref_un_summary">Change your username</string>
+    <string name="pref_pw_summary">Change your password</string>
+
+    <!--Username Change Page -->
+    <string name="new_username_hint">New username</string>
+    <string name="new_username_confirm_hint">Confirm new username</string>
+    <string name="un_change_error_label">Usernames do not match</string>
+
+    <!--Password Change Page -->
+    <string name="old_pw_hint">Old password</string>
+    <string name="new_pw_hint">New password</string>
+    <string name="new_pw_confirm_hint">Confirm new password</string>
+    <string name="pw_change_error_label">New passwords do not match</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

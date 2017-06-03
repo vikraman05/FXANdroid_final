@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/m_destTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/m_dest_label"
+        android:visibility="invisible"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/m_destEditText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/m_destEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:hint="Enter Server Name"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/m_destTextView"
+        app:layout_constraintLeft_toRightOf="@+id/m_destTextView"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/m_pwEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:hint="@string/m_pw_placeholder"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        app:layout_constraintBaseline_toBaselineOf="@+id/m_pwTextView"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintLeft_toRightOf="@+id/m_pwTextView"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/m_pwTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/m_pw_label"
+        android:visibility="invisible"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/m_pwEditText"
+        app:layout_constraintTop_toBottomOf="@+id/m_destTextView" />
+
+    <Button
+        android:id="@+id/m_confirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="24dp"
+        android:text="Enter"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/m_pwEditText"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
